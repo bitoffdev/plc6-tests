@@ -1,0 +1,26 @@
+a := 2
+s := 0
+while - a 12
+    s := + s * a a
+    a := + a 2
+
+PUSH 2
+STORE a
+PUSH 0
+STORE s
+LOAD a
+PUSH 12
+SUB
+BRZ 12
+LOAD s
+LOAD a
+LOAD a
+MULT
+ADD
+STORE s
+LOAD a
+PUSH 2
+ADD
+STORE a
+JUMP -14
+

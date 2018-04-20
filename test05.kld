@@ -1,0 +1,7 @@
+begin
+ x := 5
+ if x
+  y := - x x
+  y := x
+end
+

@@ -1,0 +1,18 @@
+if 1
+    if 0
+        pass
+        pass
+    if -1
+        pass
+        pass
+
+PUSH 1
+BRZ 5
+PUSH -1
+BRZ 2
+JUMP 1
+JUMP 4
+PUSH 0
+BRZ 2
+JUMP 1
+

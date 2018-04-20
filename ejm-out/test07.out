@@ -1,0 +1,5 @@
+bozo := 99
+
+PUSH 99
+STORE bozo
+

@@ -1,0 +1,65 @@
+y := 4
+x := 5
+z := 10
+if x
+    x := + 1 x
+    y := - x x
+    pass
+if y
+    pass
+    x := + 1 x
+    y := - x x
+if z
+    x := + 1 x
+    y := - x x
+    x := + 1 x
+    y := - x x
+
+PUSH 4
+STORE y
+PUSH 5
+STORE x
+PUSH 10
+STORE z
+LOAD x
+BRZ 2
+JUMP 9
+PUSH 1
+LOAD x
+ADD
+STORE x
+LOAD x
+LOAD x
+SUB
+STORE y
+LOAD y
+BRZ 10
+PUSH 1
+LOAD x
+ADD
+STORE x
+LOAD x
+LOAD x
+SUB
+STORE y
+JUMP 1
+LOAD z
+BRZ 10
+PUSH 1
+LOAD x
+ADD
+STORE x
+LOAD x
+LOAD x
+SUB
+STORE y
+JUMP 9
+PUSH 1
+LOAD x
+ADD
+STORE x
+LOAD x
+LOAD x
+SUB
+STORE y
+

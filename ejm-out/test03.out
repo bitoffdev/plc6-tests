@@ -1,0 +1,61 @@
+a := 4
+b := 20
+c := 24
+inside := - * b b * 4 * a c
+left := 2
+right := / inside left
+while - left right
+    left := right
+r := / + - 0 b left * 2 a
+s := / - - 0 b left * 2 a
+
+PUSH 4
+STORE a
+PUSH 20
+STORE b
+PUSH 24
+STORE c
+LOAD b
+LOAD b
+MULT
+PUSH 4
+LOAD a
+LOAD c
+MULT
+MULT
+SUB
+STORE inside
+PUSH 2
+STORE left
+LOAD inside
+LOAD left
+DIV
+STORE right
+LOAD left
+LOAD right
+SUB
+BRZ 4
+LOAD right
+STORE left
+JUMP -6
+PUSH 0
+LOAD b
+SUB
+LOAD left
+ADD
+PUSH 2
+LOAD a
+MULT
+DIV
+STORE r
+PUSH 0
+LOAD b
+SUB
+LOAD left
+SUB
+PUSH 2
+LOAD a
+MULT
+DIV
+STORE s
+

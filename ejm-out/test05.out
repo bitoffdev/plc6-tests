@@ -1,0 +1,17 @@
+x := 5
+if x
+    y := - x x
+    y := x
+
+PUSH 5
+STORE x
+LOAD x
+BRZ 4
+LOAD x
+STORE y
+JUMP 5
+LOAD x
+LOAD x
+SUB
+STORE y
+

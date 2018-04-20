@@ -1,0 +1,9 @@
+# Kladoi Compiler tests
+
+This repo contains all the try tests for PLC Lab 6. The main directory contains all the kladoi code. The `ejm-out` dir contains all of Elliot's code. The `jeh-out` dir contains the try output for the two test cases.
+
+## Usage (on a UNIX system)
+
+Please run this command from the directory containing kladoi-compiler.sh:
+
+    ./tests/run

@@ -1,0 +1,27 @@
+a := 10
+b := -1
+c := 5
+while - a c
+    c := + c 1
+    b := * b 2
+
+PUSH 10
+STORE a
+PUSH -1
+STORE b
+PUSH 5
+STORE c
+LOAD a
+LOAD c
+SUB
+BRZ 10
+LOAD c
+PUSH 1
+ADD
+STORE c
+LOAD b
+PUSH 2
+MULT
+STORE b
+JUMP -12
+

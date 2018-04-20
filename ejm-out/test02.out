@@ -1,0 +1,26 @@
+x := -5
+while - x 0
+    x := + x 1
+x := + x 5
+y := - x 7
+
+PUSH -5
+STORE x
+LOAD x
+PUSH 0
+SUB
+BRZ 6
+LOAD x
+PUSH 1
+ADD
+STORE x
+JUMP -8
+LOAD x
+PUSH 5
+ADD
+STORE x
+LOAD x
+PUSH 7
+SUB
+STORE y
+
