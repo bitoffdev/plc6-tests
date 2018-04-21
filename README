@@ -6,4 +6,4 @@ This repo contains all the try tests for PLC Lab 6. The main directory contains 
 
 Please run this command from the directory containing kladoi-compiler.sh:
 
-    ./tests/run
+    ./plc6-tests/run
