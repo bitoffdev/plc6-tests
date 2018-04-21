@@ -6,12 +6,12 @@ if x
 PUSH 5
 STORE x
 LOAD x
-BRZ 4
-LOAD x
-STORE y
-JUMP 5
+BRZ 6
 LOAD x
 LOAD x
 SUB
+STORE y
+JUMP 3
+LOAD x
 STORE y
 
