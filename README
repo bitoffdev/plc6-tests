@@ -7,3 +7,8 @@ This repo contains all the try tests for PLC Lab 6. The main directory contains 
 Please run this command from the directory containing kladoi-compiler.sh:
 
     ./plc6-tests/run
+
+## Note
+
+Only cases 1-12 are tested by try. Case 0 is the sample provided online and
+case 13 is a test of the if-statement from the discussions.

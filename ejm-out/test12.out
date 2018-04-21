@@ -1,0 +1,16 @@
+x := 0
+while - x 10
+    x := + x 1
+
+PUSH 0
+STORE x
+LOAD x
+PUSH 10
+SUB
+BRZ 6
+LOAD x
+PUSH 1
+ADD
+STORE x
+JUMP -8
+

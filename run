@@ -2,7 +2,7 @@
 
 mkdir -p plc6-tests/.tmp
 
-for I in {0..10}
+for I in {0..13}
 do
 	echo "===== TEST $I DIFF ====="
 	/bin/sh kladoi-compiler.sh `printf 'plc6-tests/test%02d.kld' $I` > `printf 'plc6-tests/.tmp/test%02d.out' $I`

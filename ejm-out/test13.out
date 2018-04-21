@@ -1,0 +1,15 @@
+a := 2
+if a
+    b := a
+    b := 2
+
+PUSH 2
+STORE a
+LOAD a
+BRZ 4
+LOAD a
+STORE b
+JUMP 3
+PUSH 2
+STORE b
+
